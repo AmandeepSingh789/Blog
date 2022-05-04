@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+/* #753742,#D8BD8A,#D8D78F,#AA5042,#4F3130
+*/
+
+*{
+  font-family: 'Oswald', sans-serif;
+  margin:0;
+  color:#bfabb7;
+  background-color: #753742;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  padding:20px;
+  display: flex;
+  align-items:center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 2px solid #D8BD8A;
+}
+
+.navbar h1{
+  color:#d5d368;
+}
+.navbar .links{
+  margin:auto;
+}
+
+.navbar a{
+  margin-left:16px;
+  text-decoration:none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #d2cf26;
+}
+
+.content{
+  max-width: 600px;
+  margin:40px auto;
+  padding:20px;
 }

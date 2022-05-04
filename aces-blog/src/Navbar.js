@@ -6,7 +6,11 @@ const Navbar = () => {
         <h1>The Ace Blog</h1>
         <div className="links">
             <a href="/">Home</a>
-            <a href="/create">New Blog</a>
+            <a href="/create" style={{
+                color:"#753742",
+                backgroundColor:"#bfabb7",
+                borderRadius:"8px"
+            }}>New Blog</a>
         
         </div>
     </nav>
