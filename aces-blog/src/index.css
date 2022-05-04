@@ -17,6 +17,7 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 2px solid #D8BD8A;
+  transition: transform 1s;
 }
 
 .navbar h1{
@@ -30,9 +31,11 @@
   margin-left:16px;
   text-decoration:none;
   padding: 6px;
+  
 }
 
 .navbar a:hover{
+  font-size: larger;
   color: #d2cf26;
 }
 
