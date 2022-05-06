@@ -31,6 +31,7 @@
   margin-left:16px;
   text-decoration:none;
   padding: 6px;
+
   
 }
 
@@ -59,4 +60,9 @@
   font-size: 20px;
   color: #d5d368;
   margin-bottom: 8px;
+}
+
+.PostLogo{
+  width: 100px;
+  height:100px;
 }
