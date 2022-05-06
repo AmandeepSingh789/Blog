@@ -66,3 +66,13 @@
   width: 100px;
   height:100px;
 }
+
+.delete-button{
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+.delete-button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #d5d368;
+}
