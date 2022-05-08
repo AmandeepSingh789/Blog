@@ -11,7 +11,8 @@ const Navbar = () => {
                 backgroundColor:"#bfabb7",
                 borderRadius:"8px"
             }}>New Blog</a>
-        
+            <a href="/recommendations">Recommendations</a>
+            <a href="/about">About</a>
         </div>
     </nav>
   )
