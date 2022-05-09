@@ -31,8 +31,7 @@
   margin-left:16px;
   text-decoration:none;
   padding: 6px;
-
-  
+  transition: all 0.2s ease-in-out ;
 }
 
 .navbar a:hover{
